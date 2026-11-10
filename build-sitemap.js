@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://matrix-operations-8cf.pages.dev';
+const DOMAIN = 'https://matrix-operations-8cf.pageaura.xyz';
 const KEY = '1633923fc03f4f6cbbf05971ef65249d';
 
 const ROOT = __dirname;
@@ -45,7 +45,7 @@ for (const value of rawUrls) {
   }
 
   if (
-    url.hostname.toLowerCase() !== 'matrix-operations-8cf.pages.dev' ||
+    url.hostname.toLowerCase() !== 'matrix-operations-8cf.pageaura.xyz' ||
     !['http:', 'https:'].includes(url.protocol) ||
     url.username ||
     url.password
