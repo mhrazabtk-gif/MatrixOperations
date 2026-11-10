@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const HOST = 'matrix-operations-8cf.pages.dev';
+const HOST = 'matrix-operations-8cf.pageaura.xyz';
 const KEY = '1633923fc03f4f6cbbf05971ef65249d';
-const KEY_LOCATION = `https://matrix-operations-8cf.pages.dev/1633923fc03f4f6cbbf05971ef65249d.txt`;
+const KEY_LOCATION = `https://matrix-operations-8cf.pageaura.xyz/1633923fc03f4f6cbbf05971ef65249d.txt`;
 
 const urlsFile = path.join(__dirname, 'urls.txt');
 let urlList = [];
